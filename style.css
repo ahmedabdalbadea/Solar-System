@@ -1,0 +1,183 @@
+body {
+    margin: 0;
+    background-image: radial-gradient(circle 200px at top, #fc6736, black);
+    background-repeat: no-repeat;
+    height: 100vh;
+}
+
+/*start all of image style*/
+img {
+    display: inline-block;
+    width: inherit;
+    position: relative;
+}
+
+/*end all of image style*/
+/* start sun */
+.sun {
+    width: 200px;
+    margin: auto;
+}
+
+.sun img {
+    top: -100px;
+}
+
+/* end sun */
+/* start arc of planets */
+.arc-mercury,
+.arc-venus,
+.arc-earth,
+.arc-mars,
+.arc-jupiter,
+.arc-saturn,
+.arc-uranus,
+.arc-neptune {
+    border: solid #45474B 1px;
+    border-top: none;
+    margin: auto;
+    position: relative;
+}
+
+.mercury,
+.venus,
+.earth,
+.mars,
+.jupiter,
+.saturn,
+.uranus,
+.neptune {
+    position: absolute;
+}
+
+/* end arc of planets */
+/* start mercury */
+.arc-mercury {
+    height: 165px;
+    width: 315px;
+    top: -208px;
+    border-bottom-left-radius: 165px;
+    border-bottom-right-radius: 165px;
+}
+
+.mercury {
+    width: 30px;
+    left: -13px;
+    top: 12px;
+}
+
+/* end mercury */
+
+/* start venus */
+.arc-venus {
+    height: 215px;
+    width: 369px;
+    top: -374px;
+    border-bottom-left-radius: 215px;
+    border-bottom-right-radius: 215px;
+}
+
+.venus {
+    width: 50px;
+    top: 55px;
+    right: -20px;
+}
+
+/* end venus */
+
+/* start earth */
+.arc-earth {
+    height: 270px;
+    width: 490px;
+    top: -590px;
+    border-bottom-left-radius: 270px;
+    border-bottom-right-radius: 270px;
+}
+
+.earth {
+    width: 60px;
+    top: 117px;
+    right: 0;
+}
+/* end earth */
+
+/* start mars */
+.arc-mars {
+    height: 340px;
+    width: 620px;
+    top: -861px;
+    border-bottom-left-radius: 340px;
+    border-bottom-right-radius: 340px;
+}
+
+.mars {
+    width: 60px;
+    top: 128px;
+    left: 0;
+}
+/* end mars */
+
+/* start jupiter */
+.arc-jupiter {
+    height: 400px;
+    width: 745px;
+    top: -1202px;
+    border-bottom-left-radius: 400px;
+    border-bottom-right-radius: 400px;
+}
+
+.jupiter {
+    width: 80px;
+    top: 220px;
+    left: 45px;
+}
+/* end jupiter */
+
+/* start saturn */
+.arc-saturn {
+    height: 470px;
+    width: 840px;
+    top: -1603px;
+    border-bottom-left-radius: 470px;
+    border-bottom-right-radius: 470px;
+}
+
+.saturn {
+    width: 95px;
+    top: 448px;
+    left: calc(50% - 95px);
+}
+/* end saturn */
+
+/* start uranus */
+.arc-uranus {
+    height: 545px;
+    width: 875px;
+    top: -2074px;
+    border-bottom-left-radius: 545px;
+    border-bottom-right-radius: 545px;
+}
+
+.uranus {
+    width: 50px;
+    top: 482px;
+    right: 230px;
+}
+/* end uranus */
+
+/* start neptune */
+.arc-neptune {
+    height: 605px;
+    width: 935px;
+    top: -2620px;
+    border-bottom-left-radius: 605px;
+    border-bottom-right-radius: 605px;
+}
+
+.neptune {
+    width: 50px;
+    top: 475px;
+    right: 140px;
+}
+/* end neptune */
+
